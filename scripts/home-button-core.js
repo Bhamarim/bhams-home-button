@@ -61,7 +61,7 @@ Hooks.once('deleteScene', (scene) => {
     (scene, index) => index == game.settings.get('bhams-home-button', 'homeScene'),
   )
   if (homeScene == scene) {
-    game.settings.set('home-button', 'homeScene', 0)
+    game.settings.set('bhams-home-button', 'homeScene', 0)
   }
   HomeButtonSettings.registerSettings(game.scenes.contents)
 })
