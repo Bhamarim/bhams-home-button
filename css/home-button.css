@@ -1,8 +1,8 @@
-#home-button-container{
+#home-button-container {
   padding: 8px 15px 0px 15px;
 }
 
-#home-button{
+#home-button {
   width: 72px;
   height: 72px;
   box-sizing: content-box;
@@ -17,13 +17,14 @@
   cursor: pointer;
   pointer-events: all;
   display: inline-block;
+  margin-bottom: 0.5em;
 }
 
-#home-button:hover{
+#home-button:hover {
   border: 1px solid var(--color-border-light-1);
   box-shadow: 0 0 10px var(--color-border-light-1);
 }
 
-#logo{
-  visibility:none;
+#logo {
+  display: none;
 }
