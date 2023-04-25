@@ -1,8 +1,8 @@
 {
   "id": "bhams-home-button",
-  "title": "Home Button",
+  "title": "Bham's Home Button",
   "description": "Add a button to return the players to a given scene. Highly useful for landing pages.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
