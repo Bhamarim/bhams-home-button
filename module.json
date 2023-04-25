@@ -1,7 +1,7 @@
 {
-  "id": "home-button",
+  "id": "bhams-home-button",
   "title": "Home Button",
-  "description": "Add a button to return the players to a given scene. Highly useful if you use a landing page.",
+  "description": "Add a button to return the players to a given scene. Highly useful for landing pages.",
   "version": "0.0.1",
   "compatibility": {
     "minimum": "10",
@@ -14,12 +14,10 @@
     }
   ],
   "styles": ["./css/home-button.css"],
-  "esmodules": [
-    "./scripts/home-button-core.js"
-],
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "bugs": "",
-  "readme": ""
+  "esmodules": ["./scripts/home-button-core.js"],
+  "url": "https://github.com/Bhamarim/bhams-home-button",
+  "manifest": "https://raw.githubusercontent.com/Bhamarim/bhams-home-button/main/module.json",
+  "download": "https://github.com/Bhamarim/bhams-home-button/archive/refs/heads/main.zip",
+  "bugs": "https://github.com/Bhamarim/bhams-home-button/issues",
+  "readme": "https://github.com/Bhamarim/bhams-home-button/blob/main/README.md"
 }
