@@ -57,7 +57,9 @@ Hooks.once('createScene', function () {
 })
 
 Hooks.once('deleteScene', (scene) => {
-  const homeScene = game.scenes.contents.find((scene, index) => index == game.settings.get('home-button', 'homeScene'))
+  const homeScene = game.scenes.contents.find(
+    (scene, index) => index == game.settings.get('bhams-home-button', 'homeScene'),
+  )
   if (homeScene == scene) {
     game.settings.set('home-button', 'homeScene', 0)
   }
