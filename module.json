@@ -1,0 +1,25 @@
+{
+  "id": "home-button",
+  "title": "Home Button",
+  "description": "Add a button to return the players to a given scene. Highly useful if you use a landing page.",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "Bhamarim"
+    }
+  ],
+  "styles": ["./css/home-button.css"],
+  "esmodules": [
+    "./scripts/home-button-core.js"
+],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "bugs": "",
+  "readme": ""
+}
